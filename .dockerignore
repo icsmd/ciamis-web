@@ -1,0 +1,5 @@
+./ARCHON-WEB/.git*
+./ARCHON-WEB/.env.local
+./ARCHON-WEB/.editorconfig
+./ARCHON-WEB/laravel_template_db.sql
+./ARCHON-WEB/README.md
