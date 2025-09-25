@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import core from '@/router/routes/core'
+import account from '@/router/routes/account'
+import application from '@/router/routes/application'
+import token from '@/router/routes/token'
 
 let routes = []
 
 routes = routes.concat(
 	core,
+	account,
+	application,
+	token,
 );
 
 const router = createRouter({

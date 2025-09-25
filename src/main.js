@@ -25,7 +25,7 @@ import { createApp } from 'vue'
 import { createVuetify } from 'vuetify'
 import 'vuetify/styles'
 
-axios.defaults.baseURL = `${import.meta.env.ARCHON_API_URL}`
+axios.defaults.baseURL = `${import.meta.env.CIAMIS_API_URL}`
 
 // const token = localStorage.getItem('token');
 

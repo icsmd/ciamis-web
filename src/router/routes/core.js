@@ -12,13 +12,13 @@ const routes = [
 	{
 		path: '/Main-Menu',
 		name: 'main-menu',
-		meta: { requiresAuth: true, layout: 'header', title: 'ARCHON' },
+		meta: { requiresAuth: true, layout: 'header', title: 'Main Menu' },
 		component: mainMenu,
 	},
 	{
 		path: '/Ongoing-Development',
 		name: 'not-found',
-		meta: { requiresAuth: true, layout: 'header', title: 'ARCHON' },
+		meta: { requiresAuth: true, layout: 'header', title: '404 Not Found' },
 		component: development,
 	},
 ]

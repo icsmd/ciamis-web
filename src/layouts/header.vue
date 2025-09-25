@@ -108,9 +108,9 @@ const model = reactive({
 const menuItems = [
     { title: "User Manual", icon: "mdi-information", routeName: "not-found" },
     { title: "Home", icon: "mdi mdi-view-dashboard", routeName: "main-menu" },
-    { title: "Account Management", icon: "mdi mdi-account-group", routeName: "" },
-    { title: "Application Management", icon: "mdi mdi-application-brackets", routeName: "" },
-    { title: "Token Management", icon: "mdi mdi-cookie", routeName: "" },
+    { title: "Account Management", icon: "mdi mdi-account-group", routeName: "account-management" },
+    { title: "Application Management", icon: "mdi mdi-application-brackets", routeName: "application-management" },
+    { title: "Token Management", icon: "mdi mdi-cookie", routeName: "token-management" },
 ];
 
 const headerTitle = computed(() => store.getters['references/headerTitle']);
